@@ -1,0 +1,390 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+
+.background-1{
+    background-image: url(./images/background-1.jpg);
+    height: 825px;
+    background-repeat: no-repeat;
+    padding-top: 8px;
+    background-position-x: 40%;
+}
+
+.head{
+    display: flex;
+    justify-content: space-around;
+}
+
+.navigation ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navigation{
+    margin-left: 67px;
+    margin-top: 11px;
+}
+
+.navigation li a{
+    color: #FEFEFF;
+    font-size: 12px;
+    font-family: 'Lato';
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: 1px solid #FEFEFF ;
+    margin: 0 20px;
+    letter-spacing: 2px;
+}
+
+.tab{
+    width: 100%;
+    height:55px ;
+    background: white;
+    position: sticky;
+    z-index: 99;
+    top: 0;
+    bottom: unset;
+}
+
+.tab-1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 97%;
+}
+
+.tab-1 img{
+    width: 163px;
+    height: 43px;
+    margin-top: 5px;
+}
+
+.navigation-2{
+    margin-top: 13px;
+}
+
+.navigation-2 li a{
+    color: #414F6B;
+    font-size: 12px;
+    font-family: 'Lato';
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: 1px solid  #414F6B;
+    margin: 0 20px;
+    letter-spacing: 2px;
+}
+
+.navigation-2 ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.history01{
+    background-image: url(./images/background-2.jpg);
+    width: 100%;
+    height: 703px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position-x: 64%;
+}
+
+.history{
+    width: 80%;
+    height:194px;
+    position: relative;
+    margin: 0 0 0 17%;
+    padding-top: 10px;
+    text-align: left;
+}
+
+.history h2{
+    font-family: 'Oswald';
+    font-size: 144px;
+    color: rgba(65, 79, 107, 0.5);
+    margin-top: 45px;
+}
+
+.history span{
+    font-family: 'Oswald';
+    font-size: 35px;
+    color: rgba(65, 79, 107, 1);
+    position: absolute;
+    padding-top: 84px;
+    left: 136px;
+}
+
+.history01 p{
+    font-size: 16px;
+    position: relative;
+    font-family: 'Lato';
+    width: 59%;
+    margin: 0 5%;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center; 
+    width: 70%;
+}
+
+.width-70{
+    display: flex;
+    justify-content: center;
+}
+
+.mountainList{
+    padding: 30px 0 70px;
+    background: url(./images/slider.jpg) no-repeat center center/cover;
+}
+
+.mountainList .mountainSlider .item{
+    padding: 0 10px;
+}
+
+.mountainList .mountainSlider .item .itemwrap{
+    display: flex;
+    justify-content: center;
+}
+
+.slick-dots li button {
+    width: 10px;
+    height: 10px;
+    background: #636d81 !important;border: 1px solid #636d81;padding: 0;margin: 0;
+}
+
+.slick-dots li.slick-active button {
+    background: #fff !important;border: 1px solid #fff !important;
+}
+
+.slick-dots {
+    bottom: -45px;
+}
+
+.climb{
+    width: 80%;
+    height:194px;
+    position: relative;
+    margin: 0 0 0 17%;
+    padding-top: 10px;
+    text-align: left; 
+    display: flex;
+    flex-direction: row;
+}
+
+.climb h2{
+    font-family: 'Oswald';
+    font-size: 144px;
+    color: rgba(65, 79, 107, 0.5);
+}
+
+.climb span{
+    font-family: 'Oswald';
+    font-size: 35px;
+    color: rgba(65, 79, 107, 1);
+    position: absolute;
+    padding-top: 84px;
+    left: 155px;
+}
+
+.climb02 p{
+    font-size: 16px;
+    position: relative;
+    font-family: 'Lato';
+    width: 45%;
+    margin: 5% 5%;
+}
+
+.footer{
+    background: #414F6B;
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer img{
+    width: 163px;
+    height: 43px;
+}
+
+.footer h4{
+    font-size: 12px;
+    font-family: 'Lato';
+    color: #63769D;
+    letter-spacing: 1.5px;
+}
+
+.mountain{
+    width: 100%;
+    background: #414F6B;
+    margin-top: 2%;
+}
+
+.mountain-flex{
+   margin-left: 15%;
+   display: flex;
+}
+
+.mountain a{
+    display: block;
+    margin: 0 15px;
+    background: #414F6B;
+    border: 1px solid transparent;
+    color: #B0B4BE;
+    font-size: 1.7em;
+    font-family: 'Oswald';
+}
+
+.active{
+    cursor: pointer;
+    background: #B0B4BE !important;
+    color: #414F6B !important;
+    text-decoration-line: underline;
+}
+
+#mountain-img{
+    background-image: url(./images/background3-1.jpg);
+    width: 100%;
+    height:546px;
+    position: relative;
+    background-position-x: 20%;
+}
+
+#mountain-img-2{
+    background-image: url(./images/background3-2.jpg);
+    width: 100%;
+    height:546px;
+    position: relative;
+    background-position-x: 20%;
+    display: none;
+}
+
+.schedule{
+    position: absolute;
+    background: rgba(255, 255, 255, 0.7);
+    width: 353px;
+    height: 230px;
+    margin-left: 20%;
+    top: 19%;   
+}
+
+.heading h3{
+    font-family: 'Oswald';
+    color:rgba(65, 79, 107, 1);
+    font-size: 30px;
+}
+
+.chart{
+    display: flex;
+    justify-content: space-around;
+    font-size: 16px;
+    font-family: 'Lato';
+    margin-top: 5px;
+}
+
+.date p:nth-child(1){
+    line-height: 2;
+}
+
+.name p:nth-child(1){
+    line-height: 2;
+}
+
+@media screen and (max-width:1500px){
+.climb{
+     flex-direction: column;
+}
+.climb02 p{
+    width: 100%;
+}
+.mountain{
+    margin-top: 100px;
+}
+    
+}
+
+@media screen and (max-width:640px){
+       .background-1{
+        background-image: none;
+        background-image: url(./images/responsive-back.jpg);
+        background-position-x: 37%;
+        max-width: 100%;
+        height: 442px;
+        object-fit: cover;
+        background-size: 100%;
+        }
+         
+        .navigation li a{
+        font-size: 9px;
+        margin: 0 15px;
+        letter-spacing: none;
+        }
+     
+        .tab-1 img{
+        padding: 10px 0 0 10px;
+        width: 153px;
+        height: 48px;
+        margin-top: unset;
+        }
+
+        .navigation-2 li a{
+        font-size: 9px;
+        margin: 0 15px;
+        letter-spacing: none;
+        }
+        
+        .history01 p{
+        width: 69%;
+        font-size: 14px;
+        }
+
+        .climb{
+        flex-direction: column;
+        }
+
+        .climb p{
+        width: 80%;
+        font-size: 14px;
+        }
+         
+        .footer img{
+        padding: 5px;
+        width: 150px;
+        height: 50px;
+        }
+
+        .footer h4{
+        font-size: 8px;
+        }
+
+        .mountain{
+         margin-top: 50%; 
+        }
+         
+        .mountain-flex{
+         width: 86%;
+         margin-left: 11%;
+        }
+
+        .mountain button{
+        font-size: 1em;
+        }
+
+        .schedule{
+        width: 100%;
+        margin: 0 auto;
+        }
+
+    }
+
+
+
